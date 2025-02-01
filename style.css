@@ -1,0 +1,41 @@
+.container{
+    border: 2px  solid black;
+    display: flex;
+    height: 80vh;
+    /* justify-content:space-around; */
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* rap property  */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    flex-flow: row wrap;
+    /* gap property  */
+    gap:10px 30px;
+    /* column-gap: 5px; */
+
+}
+.items{
+    border: 5px  solid black;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(255, 115, 0);
+    /* margin: 5px; */
+    /* ordder property  */
+    /* flex grow property  */
+    /* flex-grow: 1; */
+}
+.item1{
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+align-self: flex-end;
+}
+.order-1{
+    order:1;
+}
+.order-2{
+    order:2;
+}
+.order-2{
+    order:3;
+}
